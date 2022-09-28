@@ -1,45 +1,67 @@
 /* Reset */
 html {
-    font-size: 62.5%;
-    height: 100%;
-  }
+  font-size: 62.5%;
+  height: 100%;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    min-height: 100%;
-  }
+body {
+  min-height: 100%;
+}
 
-  #contenedor {
-    display: grid;
-    grid-template-areas: "navegador" "encabezado" "principal" "pie";
-    grid-template-columns: 100%;
-    grid-template-rows: 10rem auto auto 6rem;
-    gap: 1rem;
-  }
+h2 {
+  text-align: center;
+  font-size: 5rem;
+}
 
-  .navegador {
-    grid-area: navegador;
-    background-color: #2a2929;
-  }
-  
-  header {
-    grid-area: encabezado;
-    background-color: rgba(126, 126, 126, 0.91);
-  }
-  
-  .principal {
-    grid-area: principal;
-    background-color: rgba(66, 64, 64, 0.91);
-  }
-  
+h4{
+  text-align: center;
+  font-size: large;
+}
 
-  .pie {
-    grid-area: pie;
-    background-color: #2a2929;
-  }
-  
+#contenedor {
+  display: grid;
+  grid-template-areas: "navegador""encabezado""principal""pie";
+  grid-template-columns: 100%;
+  grid-template-rows: 10rem auto auto 6rem;
+  gap: 1rem;
+}
+
+.navegador {
+  grid-area: navegador;
+  background-color: #2a2929;
+}
+
+header {
+  grid-area: encabezado;
+  background-color: rgba(126, 126, 126, 0.91);
+}
+
+.principal {
+  grid-area: principal;
+  background-color: rgba(66, 64, 64, 0.91);
+}
+
+
+.pie {
+  grid-area: pie;
+  background-color: #2a2929;
+}
+
+
+/* Formulario */
+
+.divForm {
+  display: flex;
+  justify-content: center;
+}
+
+.nombre,.email{
+  width: 20rem;
+}
+
