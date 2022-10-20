@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Copa del mundo Qatar 2022</title>
+
     <!-- Link Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 
     <!-- Link Css -->
     <link rel="stylesheet" href="/css/styles.css">
@@ -17,284 +23,1458 @@
 
 <body id="contenedor">
 
-    <nav class="navegador">
-
-    </nav>
 
     <header>
+        <nav class="navegador">
+            <img class="qatar" src="img/Logo_de_la_Copa_Mundial_de_fútbol_2022.svg.png" alt="logo qatar">
+            <ul class="navegacion">
+                <li><a href="#noticias" class="nav-link">Noticias</a></li>
+                <li><a href="#fixture" class="nav-link">Fixture</a></li>
+                <li><a href="#participantes" class="nav-link">Participantes</a></li>
+                <li><a href="#estadios" class="nav-link">Estadios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <button class="menu-hamburguesa" id="menu-hamburguesa">
+                <ion-icon class="barras" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
 
     </header>
     <main class="principal">
 
+        <section class="cuentaRegresiva">
+            <h3>Cuenta Regresiva </h3>
+            <div class="countdown">
+                <div>
+                    <p id="days">132</p>
+                    <span>Dias</span>
+                </div>
+                <div>
+                    <p id="hours">15</p>
+                    <span>Horas</span>
+                </div>
+                <div>
+                    <p id="minutes">25</p>
+                    <span>Minutos</span>
+                </div>
+                <div>
+                    <p id="seconds">45</p>
+                    <span>Segundos</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="noticias" id="noticias">
+            <h2 class="noticiasH2">Noticias recientes</h2>
+            <div class="contenedor-noticias">
+                <div class="contenedor-de-noticias tarjeta-noticias">
+                    <img src="img/espana.jpg" alt="nota de españa" loading="lazy" class="foto-noticias" />
+                    <h3 class="titulo-noticias">Noticia 1</h3>
+                    <p class="detalle-noticias">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="enlace-noticias">Echale un vistazo!</a>
+                </div>
+                <div class="contenedor-de-noticias tarjeta-noticias ">
+                    <img src="img/argentina.jpg" alt="nota de argentina" loading="lazy" class="foto-noticias" />
+                    <h3 class="titulo-noticias">Noticia 2</h3>
+                    <p class="detalles-noticias">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="enlace-noticias">Echale un vistazo!</a>
+                </div>
+                <div class="contenedor-de-noticias tarjeta-noticias">
+                    <img src="img/brasil.jpg" alt="nota de brasil" loading="lazy" class="foto-noticias" />
+                    <h3 class="titulo-noticias">Noticia 3</h3>
+                    <p class="detalles-noticias">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="enlace-noticias">Echale un vistazo!</a>
+                </div>
+                <div class="contenedor-de-noticias tarjeta-noticias">
+                    <img src="img/brasil.jpg" alt="nota de brasil" loading="lazy" class="foto-noticias" />
+                    <h3 class="titulo-noticias">Noticia 4</h3>
+                    <p class="detalles-noticias">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                        ratione vel inventore labore commodi modi quos culpa aut saepe!
+                        Alias!
+                    </p>
+                    <a href="#" target="_blank" class="enlace-noticias">Echale un vistazo!</a>
+                </div>
+            </div>
+        </section>
+
+        <h2>Fixture del mundial</h2>
         <section id="fixture">
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
-            </div>
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupA">
+                <h3>Grupo A </h3>
             </div>
-
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupB">
+                <h3>Grupo B </h3>
             </div>
-
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupC">
+                <h3>Grupo C </h3>
             </div>
-
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupD">
+                <h3>Grupo D </h3>
             </div>
-
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupE">
+                <h3>Grupo E </h3>
             </div>
-
-            <div class="group">
-                <div class="fix1">
-                    <div class="fixGroup">
-                        <h3>A</h3>
-                    </div>
-                    <div class="fixImg"> <img class="pais" src="img/Flag-of-Quatar.png" alt="">
-                        <img class="pais" src="img/Flag-of-Ecuador.png" alt="">
-                        <img class="pais" src="img/Flag-of-Senegal.png" alt="">
-                        <img class="pais" src="img/Flag-of-Netherlands.png" alt="">
-                    </div>
-                </div>
-                <div class="fix2">
-                    <div class="fixFechas">
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                        <div> <h4>Lun 21/11 7:00 HS.</h4> </div>
-                    </div>
-                    <div class="fixVersus">
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                        <div><h4>Senegal - Paises Bajos </h4></div>
-                    </div>
-                </div>
+            <div class="groupF">
+                <h3>Grupo F </h3>
             </div>
-
-
+            <div class="groupG">
+                <h3>Grupo G </h3>
+            </div>
+            <div class="groupH">
+                <h3>Grupo H </h3>
+            </div>
+            <div class="fases1">
+                <h3>Octavos de final </h3>
+            </div>
+            <div class="fases2">
+                <h3>Cuartos de final</h3>
+            </div>
+            <div class="fases3">
+                <h3>Semifinal </h3>
+            </div>
+            <div class="fases4">
+                <h3>Final y Tercer puesto </h3>
+            </div>
 
         </section>
 
-        <section>
-            <h2>Contacto</h2>
-            <div class="divForm">
-                <form id="formulario">
-                    <h4> Nombre y Apellido </h4>
-                    <input type="text" class="nombre" required placeholder="Escriba su nombre y apellido">
-                    <hr>
-                    <h4> E-mail </h4>
-                    <input type="email" class="email" required placeholder="ejemplo@...">
-                    <hr>
-                    <h4>Consulta</h4>
-                    <textarea name="Consulta" id="" cols="40" rows="10" placeholder="Escriba su consulta"></textarea>
-                    <hr>
-                    <input class="send" type="submit" value="Enviar">
-                </form>
+        <h2>Selecciones</h2>
+        <section class="grupos">
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/qatar.png" alt="logo qatar">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 49</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 0</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/qatar.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>(22) Meshaal Barsham
+                            (16) Boualem Khoukhi
+                            (3) Abdelkarim Hassan
+                            (15) Bassam Al Rawi
+                            (14) Homam Ahmed
+                            (17) Ismail Mohamad
+                            (12) Karim Boudiaf
+                            (10) Hasan Al Haydos
+                            (6) Abdelaziz Hatim
+                            (11) Akram Afif
+                            (19) Almoez Ali
+
+                        </p>
+                    </div>
+
+                </div>
             </div>
 
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/ecuador.png" alt="logo ecuador">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 42</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 4</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/ecuador.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Hernan Galindez
+                            (3) Piero Hincapié
+                            (2) Jackson Porozo
+                            (7) Pervis Estupiñán
+                            (6) Byron Castillo
+                            (5) José Cifuentes
+                            (23) Moises Caicedo
+                            (20) Sebastián Méndez
+                            (11) Michael Estrada
+                            (10) Romario Ibarra
+                            (15) Ángel Mena
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/senegal.png" alt="logo senegal">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 18</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 2</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/senegal.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Timothy Dieng
+                            (4) Pape Abou Cissé
+                            (3) Kalidou Koulibaly
+                            (13) Ismail Jakobs
+                            (2) Formose Mendy
+                            (5) Idrissa Gueye
+                            (18) Ismaïla Sarr
+                            (6) Nampalys Mendy
+                            (9) Boulaye Dia
+                            (10) Sadio Mané
+                            (15) Krépin Diatta
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/paises bajos.png" alt="logo paises bajos">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 8</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 10</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/paises bajos.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1)Remko Pasveer
+                            (4) Virgil van Dijk
+                            (5) Nathan Aké
+                            (2) Jurriën Timber
+                            (11) Steven Berghuis
+                            (15) Marten de Roon
+                            (14) Davy Klaassen
+                            (17) Daley Blind
+                            (22) Denzel Dumfries
+                            (7) Steven Bergwijn
+                            (9) Vincent Janssen
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/inglaterra.png" alt="logo inglaterra">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 15</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 1</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/inglaterra.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Nick Pope
+                            (4) John Stones
+                            (5) Eric Dier
+                            (6) Harry Maguire
+                            (2) Reece James
+                            (8) Jude Bellingham
+                            (7) Declan Rice
+                            (3) Luke Shaw
+                            (11) Philip Foden
+                            (9) Harry Kane
+                            (10) Raheem Sterling</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Iran.png" alt="logo Iran">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 23</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/iran.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (30) Hossein Hosseini
+                            (19) Majid Hosseini
+                            (13) Hossein Kanani
+                            (3) Ehsan Hajsafi
+                            (2) Sadegh Moharrami
+                            (6) Saeid Ezatolahi
+                            (18) Milad Sarlak Chiva
+                            (21) Ahmad Nourollahi
+                            (9) Mehdi Taremi
+                            (10) Karim Ansarifard
+                            (17) Ali Gholizadeh
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/EEUU.png" alt="logo EEUU">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 14</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 10</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/EEUU.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Matt Turner
+                            (5) Aaron Long
+                            (3) Walker Zimmerman
+                            (2) Sergiño Dest
+                            (22) DeAndre Yedlin
+                            (4) Tyler Adams
+                            (8) Weston McKennie
+                            (23) Kellyn Acosta
+                            (19) Ricardo Pepi
+                            (10) Christian Pulisic
+                            (21) Giovanni Reyna
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Gales.png" alt="logo Gales">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 19</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 1</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Gales.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Wayne Hennessey
+                            (6) Joe Rodon
+                            (17) Rhys Norrington-Davies
+                            (4) Ben Cabango
+                            (7) Dylan Levitt
+                            (16) Joe Morrell
+                            (3) Neco Williams
+                            (14) Connor Roberts
+                            (11) Gareth Bale
+                            (20) Daniel James
+                            (9) Brennan Johnson
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Argentina.jpg" alt="logo Argentina">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 3</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 17</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 2</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Argentina.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (23) Emiliano Martínez
+                            (19) Nicolás Otamendi
+                            (13) Cristian Romero
+                            (3) Nicolás Tagliafico
+                            (4) Gonzalo Montiel
+                            (18) Guido Rodríguez
+                            (20) Giovani Lo Celso
+                            (15) Alexis Mac Allister
+                            (22) Lautaro Martínez
+                            (9) Julián Álvarez
+                            (11) Ángel Di María
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/arabia saudita.png" alt="logo Arabia Saudita">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 53</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/arabia Saudita.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p> (1) Mohammed Al-Rubaie
+                            (5) Ali Hadi Albulayhi
+                            (4) Abdulelah Al-Amri
+                            (12) Saud Abdulhamid
+                            (2) Sultan Al-Ghanam
+                            (26) Riyadh Sharahili
+                            (24) Nasser Al-Dosari
+                            (15) Ali Al-Hassan
+                            (9) Feras Al Brikan
+                            (27) Hattan Bahebri
+                            (16) Sami Al-Naji
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Mexico.png" alt="logo Mexico">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 12</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 16</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/mexico.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (13) Guillermo Ochoa
+                            (15) Héctor Moreno
+                            (2) Néstor Araujo
+                            (6) Gerardo Arteaga
+                            (30) Kevin Álvarez
+                            (14) Érick Gutiérrez
+                            (18) Andrés Guardado
+                            (8) Carlos Rodríguez
+                            (20) Henry Martín
+                            (10) Alexis Vega
+                            (24) Uriel Antuna
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Polonia.png" alt="logo Polonia">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 26</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 8</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/polonia.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Wojciech Szczesny
+                            (15) Kamil Glik
+                            (3) Jakub Kiwior
+                            (5) Jan Bednarek
+                            (20) Piotr Zielinski
+                            (13) Szymon Zurkowski
+                            (10) Grzegorz Krychowiak
+                            (21) Nicola Zalewski
+                            (18) Bartosz Bereszynski
+                            (9) Robert Lewandowski
+                            (16) Karol Swiderski
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Francia.png" alt="logo Francia">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 4</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 15</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 2</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/francia.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Alphonse Areola
+                            (13) Dayot Upamecano
+                            (18) Benoit Badiashile
+                            (3) William Saliba
+                            (6) Eduardo Camavinga
+                            (8) Aurélien Tchouaméni
+                            (7) Antoine Griezmann
+                            (21) Ferland Mendy
+                            (2) Benjamin Pavard
+                            (10) Kylian Mbappé
+                            (9) Olivier Giroud
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/australia.png" alt="logo Australia">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 39</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Australia.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (12) Andrew Redmayne
+                            (26) Harrison Delbridge
+                            (13) Thomas Deng
+                            (4) Joel King
+                            (3) Nathaniel Atkinson
+                            (14) Riley McGree
+                            (23) Conor Metcalfe
+                            (10) Denis Genreau
+                            (15) Mitch Duke
+                            (21) Marco Tilio
+                            (7) Mathew Leckie
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Dinamarca.jpg" alt="logo Dinamarca">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 10</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/dinamarca.jpg" alt="jugadores" class="formacion">
+                    <div class="efecto">
+                        <p>
+                            (1) Kasper Schmeichel
+                            (6) Andreas Christensen
+                            (2) Joachim Andersen
+                            (5) Joakim Maehle
+                            (13) Rasmus Kristensen
+                            (10) Christian Eriksen
+                            (23) Pierre-Emile Hojbjerg
+                            (8) Thomas Delaney
+                            (12) Kasper Dolberg
+                            (14) Mikkel Damsgaard
+                            (11) Andreas Skov Olsen
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/tunez.png" alt="logo Tunez">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 30</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/tunez.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (16) Aymen Dahmen
+                            (3) Montassar Talbi
+                            (6) Dylan Bronn
+                            (9) Mortadha Ben Ouanes
+                            (20) Mohamed Drager
+                            (17) Ellyes Skhiri
+                            (28) Aissa Laidouni
+                            (18) Ghaliene Chaaleli
+                            (19) Seifeddin Jaziri
+                            (7) Youssef M'Sakni
+                            (25) Anis Ben Slimane
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/España.png" alt="logo España">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 6</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 15</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 1</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/españa.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Unai Simón
+                            (4) Pau Torres
+                            (12) Hugo Guillamón
+                            (14) José Gayà
+                            (20) Dani Carvajal
+                            (16) Rodri
+                            (8) Koke
+                            (19) Carlos Soler
+                            (7) Álvaro Morata
+                            (22) Pablo Sarabia
+                            (11) Ferran Torres
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/costa rica.png" alt="logo Costa Rica">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 34</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/costa rica.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (18) Aaron Cruz
+                            (3) Juan Vargas
+                            (14) Orlando Galo
+                            (8) Bryan Oviedo
+                            (19) Kendall Waston
+                            (20) Brandon Aguilera
+                            (21) Carlos Mora
+                            (24) Douglas López
+                            (11) Johan Venegas
+                            (16) Aarón Suárez
+                            (4) Keysher Fuller
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Alemania.jpg" alt="logo Alemania">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 11</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 19</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 4</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/alemania.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (22) Marc-André ter Stegen
+                            (23) Nico Schlotterbeck
+                            (15) Niklas Süle
+                            (3) David Raum
+                            (5) Thilo Kehrer
+                            (14) Jamal Musiala
+                            (21) Ilkay Gündogan
+                            (6) Joshua Kimmich
+                            (7) Kai Havertz
+                            (19) Leroy Sané
+                            (18) Jonas Hofmann
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Japon.png" alt="logo Japon">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 24</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 6</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/japon.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Daniel Schmidt
+                            (28) Hiroki Ito
+                            (3) Shogo Taniguchi
+                            (5) Yuto Nagatomo
+                            (2) Miki Yamane
+                            (10) Takumi Minamino
+                            (17) Ao Tanaka
+                            (7) Gaku Shibasaki
+                            (9) Kyogo Furuhashi
+                            (18) Kaoru Mitoma
+                            (21) Ritsu Doan
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Belgica.png" alt="logo Belgica">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 2</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 13</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Belgica.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Thibaut Courtois
+                            (2) Toby Alderweireld
+                            (5) Jan Vertonghen
+                            (4) Zeno Debast
+                            (6) Axel Witsel
+                            (18) Amadou Onana
+                            (21) Timothy Castagne
+                            (15) Thomas Meunier
+                            (23) Michy Batshuayi
+                            (10) Eden Hazard
+                            (7) Kevin De Bruyne
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Canada.png" alt="logo Canada">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 43</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 1</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/canada.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (18) Milan Borjan
+                            (5) Steven Vitória
+                            (4) Kamal Miller
+                            (2) Alistair Johnston
+                            (7) Stephen Eustáquio
+                            (6) Samuel Piette
+                            (19) Alphonso Davies
+                            (3) Sam Adekugbe
+                            (22) Richie Laryea
+                            (20) Jonathan David
+                            (17) Cyle Larin
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Marruecos.png" alt="logo Marruecos">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 22</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/marruecos.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Bono
+                            (6) Romain Saïss
+                            (20) Achraf Dari
+                            (4) Sofyan Amrabat
+                            (2) Achraf Hakimi
+                            (3) Noussair Mazraoui
+                            (18) Amine Harit
+                            (17) Sofiane Boufal
+                            (8) Azz-Eddine Ounahi
+                            (7) Hakim Ziyech
+                            (23) Ryan Mmaee
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/croacia.png" alt="logo Croacia">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 15</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 5</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/croacia.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Dominik Livakovic
+                            (20) Josko Gvardiol
+                            (6) Dejan Lovren
+                            (3) Borna Barisic
+                            (2) Josip Stanisic
+                            (11) Marcelo Brozovic
+                            (8) Mateo Kovacic
+                            (10) Luka Modric
+                            (17) Ante Budimir
+                            (4)Ivan Perisic
+                            (13) Nikola Vlasic
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/brasil.png" alt="logo Brasil">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 1</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 21</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 5</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/brasil.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Alisson
+                            (3) Thiago Silva
+                            (4) Marquinhos
+                            (6) Alex Telles
+                            (2) Danilo
+                            (10) Neymar
+                            (8) Fred
+                            (5) Casemiro
+                            (9) Richarlison
+                            (7) Lucas Paquetá
+                            (19) Raphinha
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/serbia.png" alt="logo Serbia">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 25</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 12</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Serbia.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Vanja Milinkovic
+                            (13) Stefan Mitrovic
+                            (2) Strahinja Pavlovic
+                            (5) Milos Veljkovic
+                            (8) Ivan Ilić
+                            (16) Sasa Lukic
+                            (10) Dusan Tadic
+                            (17) Filip Kostic
+                            (14) Andrija Zivkovic
+                            (18) Dusan Vlahovic
+                            (9) Aleksandar Mitrovic
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Suiza.png" alt="logo Suiza">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 16</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 11</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/suiza.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Yann Sommer
+                            (4) Nico Elvedi
+                            (22) Fabian Schär
+                            (13) Ricardo Rodríguez
+                            (3) Silvan Widmer
+                            (15) Djibril Sow
+                            (10) Granit Xhaka
+                            (8) Remo Freuler
+                            (7) Breel Embolo
+                            (17) Ruben Vargas
+                            (23) Xherdan Shaqiri
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Camerun.png" alt="logo Camerun">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 38</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 7</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Camerun.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Andre Onana
+                            (3) Nicolas Nkoulou
+                            (21) Jean-Charles Castelletto
+                            (11) Nouhou Tolo
+                            (19) Collins Faï
+                            (20) Samuel Oum Gouet
+                            (24) Gaël Ondoua
+                            (18) Martin Hongla
+                            (10) Vincent Aboubakar
+                            (6) Nicolas Ngamaleu
+                            (22) Bryan Mbeumo
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Portugal.png" alt="logo Portugal">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 9</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 7</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Portugal.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (22) Diogo Costa
+                            (13) Danilo Pereira
+                            (4) Rúben Dias
+                            (5) Nuno Mendes
+                            (20) João Cancelo
+                            (8) Bruno Fernandes
+                            (14) William Carvalho
+                            (18) Rúben Neves
+                            (7) Cristiano Ronaldo
+                            (21) Diogo Jota
+                            (10) Bernardo Silva
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Ghana.png" alt="logo Ghana">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 60</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 3</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Ghana.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Richard Ofori
+                            (4) Mohammed Salisu
+                            (18) Daniel Amartey
+                            (14) Gideon Mensah
+                            (26) Alidu Seidu
+                            (20) Mohammed Kudus
+                            (8) Daniel-Kofi Kyereh
+                            (21) Iddrisu Baba
+                            (19) Iñaki Williams
+                            (11) Osman Bukari
+                            (7) Fatawu Issahaku
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Uruguay.png" alt="logo Uruguay">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 13</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 13</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 2</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Uruguay.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (23) Sergio Rochet
+                            (3) Sebastián Cáceres
+                            (22) Martín Cáceres
+                            (16) Mathías Olivera
+                            (21) Gullermo Varela
+                            (15) Federico Valverde
+                            (6) Rodrigo Bentancur
+                            (7) Nicolás De La Cruz
+                            (18) Agustín Canobbio
+                            (11) Darwin Núñez
+                            (9) Luis Suárez
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="equipo">
+                <div class="escudos">
+                    <div class="imgEquipos">
+                        <img class="logo" src="img/logos/Corea del sur.png" alt="logo Corea del Sur">
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Ranking FIFA: 28</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Participaciones: 10</h3>
+                    </div>
+                    <div class="datosEquipos">
+                        <h3>Mundiales ganados: 0</h3>
+                    </div>
+                </div>
+                <div class="for_01">
+                    <img src="img/formaciones/Corea del sur.jpg" alt="jugadores" class="formacion">
+                    <div>
+                        <p>
+                            (1) Kim Seung-Gyu
+                            (20) Kwon Kyung-Won
+                            (4) Kim Min-Jae
+                            (3) Kim Jin-Su
+                            (23) Kim Moon-Hwan
+                            (6) Hwang In-Beom
+                            (13) Son Jun-Ho
+                            (11) Hwang Hee-Chan
+                            (10) Lee Jae-Sung
+                            (7) Son Heung-Min
+                            (25) Woo-Yeong Jeong
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <h2>Estadios</h2>
+        <section>
+            <div class="testadio">
+
+                <ul class="slider">
+                    <li id="slide1">
+                        <h4>Estadio de Lusail</h4>
+
+                        <img src="img/Estadios/Estadio de Lusail.webp" />
+                        <p>Lusail Stadium es el escenario principal de Qatar, construido especialmente para albergar la
+                            final de la Copa del Mundo. El estadio lleva el nombre de la ciudad donde se ubica y tiene
+                            una capacidad para 80.000 espectadores. Su presupuesto fue el más alto, con USD
+                            2.105.000.000.</p>
+
+                    </li>
+                    <li id="slide2">
+                        <h4>Al Bayt Stadium</h4>
+                        <img src="img/Estadios/Al Bayt Stadium.webp" />
+                        <p>Está ubicado en la ciudad de Jor. Se distingue por su diseño único en forma de tienda y por
+                            ser el segundo más grande del país, con capacidad para 60 mil personas. Allí se jugará el
+                            partido inaugural. Su costo de construcción fue de $674.000.000 dólares.</p>
+                    </li>
+
+                    <li id="slide3">
+                        <h4>Estadio Al Janoub</h4>
+                        <img src="img/Estadios/Al Janoub.webp">
+                        <p>Es un estadio multiusos ubicado en la ciudad de Al Wakrah. Su diseño neo-futurista y sus
+                            motivos marítimos lo hacen uno de los recientos más atractivos de los construidos para este
+                            Mundial. Tiene una capacidad para 40.000 personas. Tuvo un presupuesto de $286.000.000 de
+                            dólares.</p>
+
+                    </li>
+
+                    <li id="slide4">
+                        <h4>Al Thumama Stadium</h4>
+                        <img src="img/Estadios/Al Thumama Stadium.webp">
+                        <p>Es uno de los más modernos y más cercanos al corazón de la cultura árabe. El estadio está
+                            ubicado 12 kilómetros al sur de Doha, cerca del aeropuerto internacional de Hamad. Su
+                            capacidad es para 40 mil espectadores. Su presupuesto fue de US$ 350.000.000.</p>
+
+                    </li>
+
+                    <li id="slide5">
+                        <h4>Ras Abu Aboud Stadium</h4>
+                        <img src="img/Estadios/Ras Abu Aboud Stadium.webp">
+                        <p>Ubicado en Doha, es un recinto innovador y sustentable, construido de forma modular e
+                            íntegramente desmontable. Será el primer estadio temporario creado para un Mundial de
+                            fútbol. Tiene una capacidad para 40 mil espectadores.</p>
+
+                    </li>
+
+                    <li id="slide6">
+                        <h4>Estadio de la Ciudad de la Educación</h4>
+                        <img src="img/Estadios/Estadio de la Ciudad de la Educación.webp">
+                        <p>Está ubicado en Al Rayyan, en las afueras de Doha, en una zona donde residen las principales
+                            instituciones educativas y científicas del país. Su capacidad es para 45 mil personas.</p>
+
+                    </li>
+
+                    <li id="slide7">
+                        <h4>Khalifa International Stadium</h4>
+                        <img src="img/Estadios/Khalifa International Stadium.webp">
+                        <p>Lleva casi medio siglo siendo el hogar del fútbol qatarí y es el único que no fue construido
+                            para el Mundial. Se ubica en las afueras de Doha, en la ciudad de Al Rayyan. Su capacidad es
+                            de 50 mil personas.</p>
+
+                    </li>
+
+                    <li id="slide8">
+                        <h4>Estadio Áhmad bin Ali</h4>
+                        <img src="img/Estadios/Estadio Áhmad bin Ali.webp">
+                        <p>Está ubicado en la ciudad de Al Rayyan, en el límite con el desierto qatarí. Cuenta con una
+                            capacidad para 40 mil personas sentadas.</p>
+
+                    </li>
+
+
+
+
+
+                </ul>
+
+                <ul class="botones">
+                    <li>
+                        <a href="#slide1"> Estadio 1</a>
+                    </li>
+                    <li>
+                        <a href="#slide2">Estadio 2</a>
+                    </li>
+                    <li>
+                        <a href="#slide3">Estadio 3</a>
+                    </li>
+                    <li>
+                        <a href="#slide4">Estadio 4</a>
+                    </li>
+                    <li>
+                        <a href="#slide5">Estadio 5</a>
+                    </li>
+                    <li>
+                        <a href="#slide6">Estadio 6</a>
+                    </li>
+                    <li>
+                        <a href="#slide7">Estadio 7</a>
+                    </li>
+                    <li>
+                        <a href="#slide8">Estadio 8</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Suscribite!</h2>
+            <div class="divForm">
+                <form id="formulario">
+                    <div>
+                        <h4> Nombre y Apellido </h4>
+                        <input type="text" class="nombre" required placeholder="Escriba su nombre y apellido">
+                    </div>
+
+                    <hr>
+                    <div>
+                        <h4> E-mail </h4>
+                        <input type="email" class="email" required placeholder="ejemplo@...">
+                    </div>
+
+                    <hr>
+                    <div>
+                        <h4>Comentarios</h4>
+                        <textarea name="Consulta" id="" cols="50" rows="10"
+                            placeholder="Escriba comentarios"></textarea>
+                    </div>
+
+                    <hr>
+                    <div class="send">
+                        <input type="submit" value="Suscribirse">
+                    </div>
+
+                </form>
+            </div>
 
         </section>
 
@@ -308,9 +1488,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        
-            <!-- Link Javascript -->
-    <script src="./javascript/script.js"></script>
+
+    <!-- Link Javascript -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
