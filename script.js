@@ -428,22 +428,43 @@ let interval = setInterval(function () {
 
 cuentaRegresiva ()
 
-let formulario = document.getElementById("formulario");
-formulario.addEventListener("submit", validarFormulario);
+let send = document.querySelector(".send")
+        send.onclick = () => {
 
-function validarFormulario(ev) {
-	let campoNombre = document.querySelector (".nombre")
-	if ((campoNombre.value == "") || (!isNaN(campoNombre.value))) {
-		ev.preventDefault();
+            let campoNombre = document.querySelector(".nombre")
+        
+            let formulario = document.getElementById("formulario");
+            formulario.addEventListener("submit", validarFormulario);
 
-		Swal.fire({
-			title: 'Error',
-			icon: 'error',
-			text: "Ingrese un nombre válido",
-			confirmButtonText: "Aceptar"})
 
-	}
-}
+            function validarFormulario(ev) {
+                if ((campoNombre.value == "") || (!isNaN(campoNombre.value))) {
+                    ev.preventDefault();
+                    Swal.fire({
+                        title: 'Error',
+                        icon: 'error',
+                        text: "Ingrese un nombre válido",
+                        confirmButtonText: "Aceptar"})
+
+                }
+                else {
+					Swal.fire({
+						title: '¿Los datos son correctos?',
+						showDenyButton: true,
+						showCancelButton: true,
+						confirmButtonText: 'Suscribirse',
+						denyButtonText: `Volver`,
+					  }).then((result) => {
+						if (result.isConfirmed) {
+						  Swal.fire('Te suscribiste!', '', 'success')
+						  location.reload ()
+						} else if (result.isDenied) {
+						  Swal.fire('Changes are not saved', '', 'info')
+						}
+					  })
+                }}}
+
+
 
 function wrongName() {
     let campoNombre = document.querySelector(".nombre")
