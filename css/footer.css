@@ -1,0 +1,42 @@
+@media screen and (max-width: 720px) {
+  .contenedor-footer {
+    flex-direction: column;
+  }
+}
+
+.footer {
+  background-color: gray;
+  width: 100%;
+}
+
+.contenedor-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 4rem;
+}
+
+.texto-footer {
+  font-size: 1.5rem;
+  color: white;
+  width: 50%;
+  text-align: justify;
+  padding: 2rem;
+}
+
+.texto-footer a {
+  font-size: 1.5rem;
+  color: white;
+  line-height: 5ex;
+  width: 50%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.desarrollado-por {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}

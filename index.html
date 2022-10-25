@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <title>Copa del mundo Qatar 2022</title>
 
     <!-- Link Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Link Google Fonts -->
@@ -18,21 +18,28 @@
 
     <!-- Link Css -->
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/hamburguesa.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body id="contenedor">
 
-
     <header>
-        <nav class="navegador">
-            <img class="qatar" src="img/Logo_de_la_Copa_Mundial_de_fútbol_2022.svg.png" alt="logo qatar">
+        <nav>
+            <img src="img/Logo_de_la_Copa_Mundial_de_fútbol_2022.svg.png" alt="" class="logoNav">
             <ul class="navegacion">
                 <li><a href="#noticias" class="nav-link">Noticias</a></li>
                 <li><a href="#fixture" class="nav-link">Fixture</a></li>
-                <li><a href="#participantes" class="nav-link">Selecciones</a></li>
+                <li><a href="#selecciones" class="nav-link">Selecciones</a></li>
                 <li><a href="#estadios" class="nav-link">Estadios</a></li>
-                <li><a href="#suscripcion" class="nav-link">Suscripción</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
             </ul>
             <button class="menu-hamburguesa" id="menu-hamburguesa">
                 <ion-icon class="barras" name="menu-outline"></ion-icon>
@@ -40,15 +47,15 @@
         </nav>
 
     </header>
+
     <main class="principal">
 
-        <section id="paginaFifa">
-            <div>
-                <iframe src="https://www.qatar2022.qa/" frameborder="0"></iframe>
+        <div id="contenedor-reloj">
+            <h1> Cuenta Regresiva </h1><br>
+            <div id="reloj">
+                <script src="/script/reloj.js"></script>
             </div>
-
-        </section>
-
+        </div>
 
         <section class="noticias" id="noticias">
             <h2 class="noticiasH2">Noticias recientes</h2>
@@ -1320,7 +1327,6 @@
         <h2>Estadios</h2>
         <section id="estadios">
             <div class="testadio">
-
                 <ul class="slider">
                     <li id="slide1">
                         <h4>Estadio de Lusail</h4>
@@ -1427,86 +1433,90 @@
             </div>
         </section>
 
-            <h2>Suscribite!</h2>
-        <section id="suscripcion">
+        <h2>Suscribite!</h2>
+        <section id="contacto">
 
-<div class="form">
-<form id = "formulario" > 
-                <h3> Nombre </h3>
-                <input type="text" class= "nombre" id="nombre" required placeholder= "Nombre"> 
-                <br>
-                <h3> Fecha de nacimiento </h3>
-                <input type="date" class= "fechaNac" min="1940-01-01" max="2022-01-01" required placeholder= "Fecha de Nacimiento">
-                <br>
-                <h3> Email </h3>
-                <input type="email" class= "email" required  placeholder= "usuario@...">
-                <br>
-            <br>
-            <input class= "send" type="submit" value="Guardar cambios">
+            <div class="form">
+                <form id="formulario">
+                    <h3> Nombre </h3>
+                    <input type="text" class="nombre" id="nombre" required placeholder="Nombre">
+                    <br>
+                    <h3> Fecha de nacimiento </h3>
+                    <input type="date" class="fechaNac" min="1940-01-01" max="2022-01-01" required
+                        placeholder="Fecha de Nacimiento">
+                    <br>
+                    <h3> Email </h3>
+                    <input type="email" class="email" required placeholder="usuario@...">
+                    <br>
+                    <br>
+                    <input class="send" type="submit" value="Enviar">
                 </form>
-</div>
+            </div>
         </section>
 
-        <section class="cuentaRegresiva">
-            <h3>Cuenta Regresiva </h3>
-            <div class="countdown">
-                <div>
-                    <p id="days">132</p>
-                    <span>Dias</span>
-                </div>
-                <div>
-                    <p id="hours">15</p>
-                    <span>Horas</span>
-                </div>
-                <div>
-                    <p id="minutes">25</p>
-                    <span>Minutos</span>
-                </div>
-                <div>
-                    <p id="seconds">45</p>
-                    <span>Segundos</span>
-                </div>
+        <section id="paginaFifa">
+            <div>
+                <iframe width="914" height="514"
+                    src="https://www.youtube.com/embed/nbf-CCd_-iQ?autoplay=1&mute=1&controls=0"
+                    title="EL VÍDEO DE LA PRESENTACIÓN DEL MUNDIAL QATAR 2022" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
 
     </main>
 
-    <footer class="pie">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col d-flex align-items-center">
-                    <img src="img/LOGO-QATAR-2022-4.jpg" width="60px" height="60px" alt="" class="logoFooter">
-                </div>
-                <div class="col d-flex justify-content-start align-items-center">
-                    <img class="qatar" src="img/Logo_de_la_Copa_Mundial_de_fútbol_2022.svg.png" alt="">
-                </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                    <div>
-                        <a href="https://www.instagram.com/fifaworldcup/?hl=es-la" target="_blank"><i id="fontAwesome"
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://twitter.com/fifaworldcup_es?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                            target="_blank"><i id="fontAwesome" class="fa-brands fa-twitter"></i></a>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Script Boostrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
     <!-- Sweet Alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/c110ca0939.js" crossorigin="anonymous"></script>
-
     <!-- Link Javascript -->
-    <script src="./script.js"></script>
+    <script src="./script/script.js"></script>
+
+    <!-- Scripts Menú Hamburguesa-->
+    <script src="/script/hamburguesa.js"></script>
+
+    <!-- Script Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"> </script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@6.0.3/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@6.0.3/dist/ionicons/ionicons.js"></script>
+
 </body>
+
+<footer class="footer">
+    <div class="contenedor-footer">
+        <div>
+            <p class="texto-footer">
+                Somos un grupo de estudiantes de programación, y desarrollamos este proyecto para el trabajo practico de
+                la cursada Full Stack Python, que forma parte del programa de entrenamiento de Codo a Codo 4.0.
+            </p><br>
+            <p class="texto-footer">
+                Nuestra misión: Es aprender nuevos conocimientos en programación, con el propósito de crear aplicaciones
+                innovadoras y unirnos a las empresas del sector informático.
+            </p>
+        </div>
+        <div class="texto-footer">
+            <ul>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#fixture">Fixture</a></li>
+                <li><a href="#participantes">Selecciones</a></li>
+                <li><a href="#estadios">Estadios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <hr>
+    <div class="desarrollado-por">
+        <p>
+            Desarrollado por
+            <a href="https://www.linkedin.com/in/ezequiel-iribarren-/" target="_blank">Ezequiel ,</a>
+            <a href="#" target="_blank">Christian y</a>
+            <a href="https://ar.linkedin.com/in/carrerepetto" target="_blank">Santiago</a>
+        </p>
+    </div>
+</footer>
+
 
 </html>
