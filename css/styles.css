@@ -213,7 +213,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  scroll-margin-top: 30em;
+  scroll-margin-top: 10em;
 }
 
 .groupA,
@@ -270,8 +270,8 @@ iframe {
 
 /* Seccion equipos */
 
-#participantes {
-  scroll-margin-top: 30em;
+#selecciones {
+  scroll-margin-top: 10em;
 }
 
 .grupos {
@@ -343,88 +343,72 @@ iframe {
 }
 
 /* Estadios */
-#estadios {
-  scroll-margin-top: 30em;
-}
 
-.testadio {
+#estadios {
+  scroll-margin-top: 10em;
+}
+.testadio{
   margin: auto;
   background-color: white;
-  width: 80rem;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 320px;
   padding: 30px;
- /* display: flex; */
   justify-content: center;
-
-
-}
-
-ul.slider {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-  width: 80rem;
-  height: 380px;
-
-}
-
-.slider {
+  align-items: center;
   display: flex;
-  font-size: 12px;
+  flex-direction: column;
+
+} 
+
+
+
+ul.slider{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+      height: 450px;
+      width: 85%;
+  
+  
+}
+.slider{ 
+width: 100%;
+font-size: 12px;
+
+
 }
 
 ul.slider li {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  opacity: 0;
-  width: inherit;
-  height: inherit;
-  transition: opacity .5s;
-  background: #fff;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+    
 }
 
-ul.slider li img {
+ul.slider li img{
   width: 100%;
-  height: 300px;
+  
   object-fit: cover;
 }
 
 ul.slider li:first-child {
-  opacity: 1;
+    opacity: 1; 
 }
-
 ul.slider li:target {
-  opacity: 1;
+    opacity: 1; 
 }
-
-.botones {
-  text-align: center;
-
-}
-
-.botones li {
-  display: inline-block;
-  text-align: center;
-  margin: 0.5rem;
-
-}
-
-.botones li a {
-  display: table-row;
-  text-decoration: none;
-  height: 20px;
-  font-size: large;
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px #8b8eaf;
-}
-
 
 
 /* Formulario */
 #contacto {
-  scroll-margin-top: 20em;
+  scroll-margin-top: 10em;
   display: flex;
   justify-content: center;
   flex-direction: column;
