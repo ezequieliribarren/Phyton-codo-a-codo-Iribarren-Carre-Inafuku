@@ -252,12 +252,15 @@ iframe {
 
 .imgPais {
   margin: 1rem;
+  padding: 0.2rem;
+  padding-top: 0.5rem;
   border: black 0.1rem solid;
 }
 
 .imgPais img {
   width: 7rem;
   height: 4.5rem;
+
 }
 
 .equipos {
