@@ -24,8 +24,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="img src = "">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -58,8 +58,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -91,8 +91,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -124,8 +124,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -157,8 +157,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -190,8 +190,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -223,8 +223,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
@@ -256,8 +256,8 @@ async function obtenerJSON() {
 			imgEquipo2.classList.add("imgPais")
 
 			fecha.innerHTML = `<h4> ${match.DateUtc}</h4>`
-			imgEquipo1.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.HomeTeam}"  alt ="">`
-			imgEquipo2.innerHTML = `<img src = "https://countryflagsapi.com/png/${match.AwayTeam}"  alt ="">`
+			imgEquipo1.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.HomeTeam}.svg"  alt ="">`
+			imgEquipo2.innerHTML = `<img src = "https://proyectoviajero.com/wp-content/uploads/2021/03/Bandera-de-${match.AwayTeam}.svg"  alt ="">`
 			textEquipo1.innerHTML = `<h4> ${match.HomeTeam}</h4>`
 			textEquipo2.innerHTML = `<h4> ${match.AwayTeam}</h4>`
 
